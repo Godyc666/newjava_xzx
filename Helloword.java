@@ -3,17 +3,17 @@ public class Helloword
 {
 	public static void main(String[] args)
 {
-int option=JOptionPane.showConfirmDialog(null,"ĞÜ×Óè¯ÊÇ´óÀĞÂğ");
+int option=JOptionPane.showConfirmDialog(null,"æ˜¯å¤§ä½¬å—");
 if(option==JOptionPane.YES_OPTION)
-		System.out.println("àÅÎÒÒ²ÕâÃ´¾õµÃ");
+		System.out.println("å—¯æˆ‘ä¹Ÿè¿™ä¹ˆè§‰å¾—");
 else if (option==JOptionPane.NO_OPTION){
 			while(option!=JOptionPane.YES_OPTION){
-			System.out.println("ÄãÔÚ³¶¶¿×Ó,ÔÙ¸øÄãÒ»´Î»ú»á£¬×¢ÒâÄãµÄËµ»°·½Ê½ºÍÉí·İ");
-			option=JOptionPane.showConfirmDialog(null,"ÔÙÎÊÄãÒ»±é£¬ĞÜ×Óè¯ÊÇ´óÀĞÂğ");
+			System.out.println("ä½ åœ¨æ‰¯çŠŠå­,å†ç»™ä½ ä¸€æ¬¡æœºä¼šï¼Œæ³¨æ„ä½ çš„è¯´è¯æ–¹å¼å’Œèº«ä»½");
+			option=JOptionPane.showConfirmDialog(null,"å†é—®ä½ ä¸€éï¼Œç†Šå­ç’‡æ˜¯å¤§ä½¬å—");
 			}
-		System.out.println("ÖÕÓÚTMËµ¶ÔÁË");
+		System.out.println("ç»ˆäºTMè¯´å¯¹äº†");
 		}
 else
-		System.out.println("ÄÇÎÒ¾Í´ó·¢´È±¯µÄ¸æËßÄã£¬ÊÇ");
+		System.out.println("é‚£æˆ‘å°±å¤§å‘æ…ˆæ‚²çš„å‘Šè¯‰ä½ ï¼Œæ˜¯");
 	}
 }
